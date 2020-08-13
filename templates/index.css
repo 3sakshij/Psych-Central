@@ -1,0 +1,69 @@
+body
+{
+  background-image: url('happy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.container {
+  /*position: relative;*/
+  padding top :50%;
+  width: 100%;
+  height: 100%;
+  
+}
+
+/*body 
+{
+  background-image:url(happy.jpg);
+  height: 100%;
+}*/
+
+/* Make the image responsive */
+.container img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+/*  position: absolute;*/
+  /*top: 70%;
+  left: 30%;*/
+  /*transform: translate(50%, 250px);
+  -ms-transform: translate(-50%, -50%);*/
+  
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn1 {
+  /*position: absolute;*/
+  /*top: 70%;
+  left: 70%;*/
+ /* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+
+.container .btn1:hover {
+  background-color: black;
+}
