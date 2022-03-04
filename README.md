@@ -1,1 +1,1 @@
-# Psych-Central.github.io
+# Psych-Central
